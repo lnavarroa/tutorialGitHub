@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="ylit.cl" content="">
 
     <title>Tutotial GitHub</title>
 
@@ -30,24 +30,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="<?php echo base_url() ?>">Índice</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="<?php echo base_url() ?>IndiceController/quienesSomos">Quines Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.html">Sample Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="<?php echo base_url() ?>IndiceController/contactanos">Contactanos</a>
             </li>
           </ul>
         </div>
@@ -62,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
               <h1>Tutorial GitHub</h1>
-              <span class="subheading">Uso funciones básicas en github para tus proyectos</span>
+              <span class="subheading">Funciones básicas para iniciar tus proyectos.</span>
               <span class="subheading">Desarrollado por <a href="https://ylit.cl/">YLIT</a></span>
             </div>
           </div>
@@ -75,61 +67,62 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Man must explore, and this is exploration at its greatest
+            <a href="<?php echo base_url() ?>">
+              <h1 class="post-title">
+                Índice.
+              </h1>
+              <h2 class="post-subtitle">
+                Ésta página contiene el índice del tutorial, haz click a continuación para ir al tema de tu interés.
               </h2>
-              <h3 class="post-subtitle">
-                Problems look mighty small from 150 miles up
-              </h3>
             </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 24, 2018</p>
+            <p class="post-meta">Posteado por
+              <a href="#">Luis Navarro</a>
+              el 05 de Julio de 2018
+            </p>
           </div>
           <hr>
           <div class="post-preview">
-            <a href="post.html">
+            <a href="<?php echo base_url() ?>IndiceController/descripcion">
               <h2 class="post-title">
-                I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                Descripción.
               </h2>
+              <h3 class="post-subtitle">
+                Que es Git y GitHub, cuales son sus diferencias.
+              </h3>
             </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 18, 2018</p>
+            <p class="post-meta">Posteado por
+              <a href="#">Luis Navarro</a>
+              el 05 de Julio de 2018
+            </p>
           </div>
           <hr>
           <div class="post-preview">
-            <a href="post.html">
+            <a href="<?php echo base_url() ?>IndiceController/instalacion">
               <h2 class="post-title">
-                Science has not yet mastered prophecy
+                Instalación Git.
               </h2>
-              <h3 class="post-subtitle">
-                We predict too much for the next year and yet far too little for the next ten.
-              </h3>
             </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on August 24, 2018</p>
+            <p class="post-meta">Posteado por
+              <a href="#">Luis Navarro</a>
+              el 05 de Julio de 2018
+            </p>
           </div>
           <hr>
           <div class="post-preview">
-            <a href="post.html">
+            <a href="<?php echo base_url() ?>IndiceController/basicos">
               <h2 class="post-title">
-                Failure is not an option
+                Comandos básicos.
               </h2>
-              <h3 class="post-subtitle">
-                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-              </h3>
             </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on July 8, 2018</p>
+            <p class="post-meta">Posteado por
+              <a href="#">Luis Navarro</a>
+              el 05 de Julio de 2018
+            </p>
           </div>
           <hr>
           <!-- Pager -->
           <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+            <a class="btn btn-primary float-right" href="#">Capítulo Siguiente &rarr;</a>
           </div>
         </div>
       </div>
@@ -168,18 +161,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+            <p class="copyright text-muted">Copyright &copy; YLIT 2018</p>
           </div>
         </div>
       </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/vendor/jquery/jquery.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/clean-blog.min.js"></script>
 
   </body>
 

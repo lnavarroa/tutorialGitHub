@@ -7,4 +7,9 @@ class IndiceController extends CI_Controller {
 	{
 		$this->load->view('indiceView');
 	}
+
+	public function descripcion()
+	{
+		$this->load->view('descripcionView');
+	}
 }
