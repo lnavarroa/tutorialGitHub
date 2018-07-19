@@ -12,4 +12,9 @@ class IndiceController extends CI_Controller {
 	{
 		$this->load->view('descripcionView');
 	}
+
+	public function instalacion()
+	{
+		$this->load->view('instalacionView');
+	}
 }

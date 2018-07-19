@@ -67,67 +67,73 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <p>Ahora que ya tenemos una pequeñisima noción de lo que es Git y GitHub, procederemos
-            con la instalación de Git.</p>
 
-            <p> <b>Git:</b> es un software de control de versiones, desarrollado por Linus Tolvard (sí, el mismo Linus que desarrollo el kernel linux). Pensado 
-            para el mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. 
-            El sitio web official de githuib es <a href="https://git-scm.com/">https://git-scm.com/</a>
-            </p>
+            <h2 class="section-heading">Descargar.</h2>
+            <p>En el sitio oficial de Git podemos encontrar las descargas correspondientes
+            al sistema operativo que estemos usando, solo debemos acceder al sitio
+            <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>.</p>
 
-            <p> <b>GitHub:</b> es una plataforma de trabajo colaborativo, para alojar proyectos. Dicha
-            plataforma utiliza el sistema de control de versiones Git (descrito en el párrafo anterior). Entre
-            las caracteristicas que podemos encontrar en GitHub tenemos algunas como:<br>
+            <p>A continuación se describe la instalación para los distintos tipos de sistemas operativos
+            más comunes.</p>
 
-              - Wiki para cada proyecto.<br>
-              - Página web para cada proyecto.<br>​
-              - Gráfico para ver cómo los desarrolladores trabajan en sus repositorios y bifurcaciones del proyecto.<br>
-              - Funcionalidades como si se tratase de una red social, por ejemplo, seguidores.<br>
-              - Herramienta para trabajo colaborativo entre programadores.<br>
-              - Gestor de proyectos de estilo Kanban.<br>
+            <h2 class="section-heading">Linux.</h2>
+            <p>Si estás en una distribución basada en Debian como Ubuntu, instala usando apt-get.</p>
 
-              El sitio web official de githuib es <a href="https://github.com">https://github.com</a>
-
-
-             </p>
-
-            <p>Por lo tanto, en resumen, la principal diferencia entre Git y GitHub es: Git es un software, mientras que GitHub es una plataforma web
-            que utiliza Git.</p>
+            <p><code>$ apt-get install git</code></p>
 
             <p></p>
 
-            <h2 class="section-heading">The Final Frontier</h2>
+            <p></p>
 
-            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+            <h2 class="section-heading">Mac.</h2>
 
-            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+            <p>Hay tres maneras fáciles de instalar Git en un Mac. La más sencilla 
+            es usar el instalador gráfico de Git, que puedes descargar desde la página de SourceForge</p>
+            <p><code><a href="http://sourceforge.net/projects/git-osx-installer/">http://sourceforge.net/projects/git-osx-installer/</a></code></p>
 
-            <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+            <p>Una alternativa es instalar Git a través de MacPorts (<a href="http://www.macports.org">http://www.macports.org</a>). 
+            Si tienes MacPorts instalado, instala Git con:</p>
+            <p><code>$ sudo port install git-core +svn +doc +bash_completion +gitweb</code></p>
 
-            <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+            <p>La otra alternativa es Homebrew (<a href="http://brew.sh/">http://brew.sh/</a>). 
+            Si ya tienes instalado Homebrew, instala Git con:</p>
+            <p><code>$ brew install git</code></p>
 
+            <h2 class="section-heading">Windows.</h2>
+
+            <p>Instalar Git en Windows es muy fácil. El proyecto msysGit tiene uno de los procesos de 
+            instalación más sencillos. Simplemente descarga el archivo exe del instalador desde 
+            la página de GitHub, y ejecútalo:</p>
+            <p><a href="http://msysgit.github.com/"><code>http://msysgit.github.com/</code></a></p>
+
+            <p>Una vez instalado, tendrás tanto la versión de línea de comandos 
+            como la interfaz gráfica de usuario estándar.</p>
+
+            <blockquote class="blockquote"><b>Nota para el uso en Windows:</b> Se debería usar Git con la 
+            shell provista por msysGit (estilo Unix), lo cual permite usar las complejas líneas de 
+            comandos de Git. Si por cualquier razón se necesitara usar la shell nativa 
+            de Windows, la consola de línea de comandos, se han de usar las comillas dobles 
+            en vez de las simples (para parámetros que contengan espacios) y se deben entrecomillar 
+            los parámetros terminándolos con el acento circunflejo (^) si están al final de la línea, 
+            ya que en Windows es uno de los símbolos de continuación.</blockquote>
+
+            
             <h2 class="section-heading">Reaching for the Stars</h2>
-
-            <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
 
             <a href="#">
               <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
             </a>
             <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
-            <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-            <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
             <p>Placeholder text by
               <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
               <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
 
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/">Capítulo Anterior &larr;</a>
+                <a class="btn btn-primary float-right" href="#">Capítulo Anterior &larr;</a>
               </div>
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/instalacion">Capítulo Siguiente &rarr;</a>
+                <a class="btn btn-primary float-right" href="#">Capítulo Siguiente &rarr;</a>
               </div>
 
           </div>
