@@ -54,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
               <h1>Tutorial GitHub</h1>
-              <span class="subheading">Descripción Git y GitHub.</span>
+              <span class="subheading">Primer Proyecto.</span>
               <span class="subheading">Desarrollado por <a href="https://ylit.cl/">YLIT</a></span>
             </div>
           </div>
@@ -68,72 +68,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
 
-            <h2 class="section-heading">Descargar.</h2>
-            <p>En el sitio oficial de Git podemos encontrar las descargas correspondientes
-            al sistema operativo que estemos usando, solo debemos acceder al sitio
-            <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>.</p>
+            <h2 class="section-heading">Crear Repositorio En GitHub.</h2>
+            <p>Ahora que ya tenemos instalado Git en nuestro sistema, estamos listos para crear 
+            un proyecto. Antes que todo debes crear tu propia cuenta en 
+            <a href="https://github.com">https://github.com</a>.</p>
 
-            <p>A continuación se describe la instalación para los distintos tipos de sistemas operativos
-            más comunes.</p>
+            <p>Una vez que ya tengas tu propia cuenta de usuario creada en GitHub. Ingresa en ella
+            y pincha el boton "new repository", en donde debes ingresar el nombre del repositorio, 
+            la descripción del repositorio (aunque es opcional), luego te pide seleccionar si tu repositorio
+            será público o privado, sin embargo para que tu repositorio sea privado debes pagar, 
+            por lo que para el caso de este tutorial solo crearemos un repositorio público. Luego,
+            te pedirá si deseas inicializar el repositorio con un archivo README, lo recomendado es incluir
+            este archivo, ya que aquí es en donde daremos la descripción de nuestro proyecto. 
+            Finalmente te pedirá si deseas agregar .gitignore y el tipo de licencia. Sin embargo para el caso 
+            de este tutorial básico lo dejaremos como "none" (más adelante se verá que es .gitignore
+            y los tipos de licencias existentes). Para crear el repositorio pincha el boton "Create repository", 
+            y listo, ya tienes tu repositorio creado y listo para subir los archivos de tu proyecto.</p>
 
-            <h2 class="section-heading">Linux.</h2>
-            <p>Si estás en una distribución basada en Debian como Ubuntu, instala usando apt-get.</p>
+            <h2 class="section-heading">Acceder a tu repositorio.</h2>
+            <p>Posteriormente para acceder a tu proyecto (o también si deseas compartirlo con alguien),
+            solo debes ingresar en 
+            <br> <code>http://github.com/tuNombreUsuario/nombreRepositorio</code>, en donde /tuNombreUsuario
+            es el nombre de usuario con el cual creaste tu propia cuenta en github, y /nombreRepositorio 
+            es el nombre del repositorio que acabas de crear.</p>
 
-            <p><code>$ apt-get install git</code></p>
+            <p>Es importante que recuerdes la ruta de tu repositorio en github, ya que más adelante,
+            para subir tus archivos la necesitarás.</p>
+
+            <p>Con todos estos pasos realizados, ya estas listo para el siguiente capítulo, el cual contempla 
+            los comandos básicos para trabajar con Git y subir tus archivos a tu repositorio de GitHub.</p>
 
             <p></p>
-
-            <p></p>
-
-            <h2 class="section-heading">Mac.</h2>
-
-            <p>Hay tres maneras fáciles de instalar Git en un Mac. La más sencilla 
-            es usar el instalador gráfico de Git, que puedes descargar desde la página de SourceForge</p>
-            <p><code><a href="http://sourceforge.net/projects/git-osx-installer/">http://sourceforge.net/projects/git-osx-installer/</a></code></p>
-
-            <p>Una alternativa es instalar Git a través de MacPorts (<a href="http://www.macports.org">http://www.macports.org</a>). 
-            Si tienes MacPorts instalado, instala Git con:</p>
-            <p><code>$ sudo port install git-core +svn +doc +bash_completion +gitweb</code></p>
-
-            <p>La otra alternativa es Homebrew (<a href="http://brew.sh/">http://brew.sh/</a>). 
-            Si ya tienes instalado Homebrew, instala Git con:</p>
-            <p><code>$ brew install git</code></p>
-
-            <h2 class="section-heading">Windows.</h2>
-
-            <p>Instalar Git en Windows es muy fácil. El proyecto msysGit tiene uno de los procesos de 
-            instalación más sencillos. Simplemente descarga el archivo exe del instalador desde 
-            la página de GitHub, y ejecútalo:</p>
-            <p><a href="http://msysgit.github.com/"><code>http://msysgit.github.com/</code></a></p>
-
-            <p>Una vez instalado, tendrás tanto la versión de línea de comandos 
-            como la interfaz gráfica de usuario estándar.</p>
-
-            <blockquote class="blockquote"><b>Nota para el uso en Windows:</b> Se debería usar Git con la 
-            shell provista por msysGit (estilo Unix), lo cual permite usar las complejas líneas de 
-            comandos de Git. Si por cualquier razón se necesitara usar la shell nativa 
-            de Windows, la consola de línea de comandos, se han de usar las comillas dobles 
-            en vez de las simples (para parámetros que contengan espacios) y se deben entrecomillar 
-            los parámetros terminándolos con el acento circunflejo (^) si están al final de la línea, 
-            ya que en Windows es uno de los símbolos de continuación.</blockquote>
-
-            
-            <h2 class="section-heading">Reaching for the Stars</h2>
-
-            <a href="#">
-              <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-            </a>
-            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-            <p>Placeholder text by
-              <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
-              <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
 
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/">Capítulo Anterior &larr;</a>
+                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/instalacion">Capítulo Anterior &larr;</a>
               </div>
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/instalacion">Capítulo Siguiente &rarr;</a>
+                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/comandosBasicos">Capítulo Siguiente &rarr;</a>
               </div>
 
           </div>

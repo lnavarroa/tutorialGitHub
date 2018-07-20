@@ -109,7 +109,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <hr>
           <div class="post-preview">
-            <a href="<?php echo base_url() ?>IndiceController/instalacion">
+            <a href="<?php echo base_url() ?>IndiceController/primerProyecto">
               <h2 class="post-title">
                 Primer Proyecto.
               </h2>
