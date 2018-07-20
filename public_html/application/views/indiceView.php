@@ -109,6 +109,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <hr>
           <div class="post-preview">
+            <a href="<?php echo base_url() ?>IndiceController/instalacion">
+              <h2 class="post-title">
+                Primer Proyecto.
+              </h2>
+            </a>
+            <p class="post-meta">Posteado por
+              <a href="#">Luis Navarro</a>
+              el 19 de Julio de 2018
+            </p>
+          </div>
+          <hr>
+          <div class="post-preview">
             <a href="<?php echo base_url() ?>IndiceController/basicos">
               <h2 class="post-title">
                 Comandos básicos.
@@ -137,7 +149,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/luis-navarro-arenas-6493b1136/">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -145,7 +157,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/ylit.cl">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -153,7 +165,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://github.com/lnavarroa/tutorialGitHub">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>

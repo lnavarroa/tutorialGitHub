@@ -17,4 +17,14 @@ class IndiceController extends CI_Controller {
 	{
 		$this->load->view('instalacionView');
 	}
+
+	public function primerProyecto()
+	{
+		$this->load->view('primerProyectoView');
+	}
+
+	public function comandosBasicos()
+	{
+		$this->load->view('comandosBasicosView');
+	}
 }
