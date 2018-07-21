@@ -121,7 +121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <hr>
           <div class="post-preview">
-            <a href="<?php echo base_url() ?>IndiceController/basicos">
+            <a href="<?php echo base_url() ?>IndiceController/comandosBasicos">
               <h2 class="post-title">
                 Comandos básicos.
               </h2>
@@ -152,7 +152,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="https://www.linkedin.com/in/luis-navarro-arenas-6493b1136/">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
